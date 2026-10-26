@@ -7,7 +7,7 @@ import { Button } from "@/components/ui/button";
 
 export const Heading= () =>{
     return(
-        <div className="max-w-3xl space-y-4">
+        <div className="max-w-3xl space-y-4 text-center">
             <h1 className="text-3xl sm:text-5xl md:text-6xl font bold">
                 Your Ideas, Documents, & Plans. Unified. Welcome
                 to <span className="underline">HDWE</span>
@@ -18,7 +18,7 @@ export const Heading= () =>{
             </h3>
             <Button>
                 Enter HDWE
-                <ArrowRight/>
+                <ArrowRight className="h-4 w-4 ml-2"/>
             </Button>
         </div>
     )
